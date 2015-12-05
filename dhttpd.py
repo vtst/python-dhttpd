@@ -145,14 +145,14 @@ def main():
                       action='store',
                       type=str,
                       dest='dserver',
-                      help='Delegate HTTP server',
+                      help='Delegate HTTP server (default: localhost:8080)',
                       metavar='HOST:PORT',
                       default='localhost:8080')
   parser.add_argument('-p', '--port',
                       action='store',
                       type=int,
                       dest='port',
-                      help='Port to listen',
+                      help='Port to listen (default: 8081)',
                       metavar='PORT',
                       default='8081')
   parser.add_argument('-l', '--localdir',

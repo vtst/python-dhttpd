@@ -25,8 +25,8 @@ usage: dhttpd.py [-h] [--dserver HOST:PORT] [-p PORT] [-l DIR]
 
 optional arguments:
   -h, --help            show this help message and exit
-  --dserver HOST:PORT   Delegate HTTP server
-  -p PORT, --port PORT  Port to listen
+  --dserver HOST:PORT   Delegate HTTP server (default: localhost:8080)
+  -p PORT, --port PORT  Port to listen (default: 8081)
   -l DIR, --localdir DIR
                         Local directory to serve
 ```
